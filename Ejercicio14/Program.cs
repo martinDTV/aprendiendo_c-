@@ -20,3 +20,22 @@ Console.WriteLine(resultado);
 int resta = Matematica.Restar(10, 5); // Restaremos
 
 Console.WriteLine(resta);
+
+
+
+// Vamos a usar la clase estatica que creamos en el otro archivo para corroborar el correo
+
+Console.WriteLine("Ingrese su correo electronico: ");
+
+string entradaCorreo = Console.ReadLine();
+
+
+if (Validador.EsCorreoValido(entradaCorreo))
+{
+    Console.WriteLine("El correo es valido");
+
+}
+else
+{
+    Console.WriteLine("El correo no es valido");
+}

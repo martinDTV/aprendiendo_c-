@@ -71,7 +71,7 @@ for (int i = 0; i < respuestaProductos; i++)
     string nombreProducto = Console.ReadLine();
 
     Console.WriteLine("Escriba el precio para el producto: ");
-    double precioProducto = double.Parse(Console.ReadLine());
+    double precioProducto = double.Parse(Console.ReadLine(), System.Globalization.CultureInfo.InvariantCulture);
 
     diccionarioProductos[nombreProducto] = precioProducto;
 }
@@ -79,16 +79,16 @@ for (int i = 0; i < respuestaProductos; i++)
 
 Console.WriteLine(new string('-', 54));
 
-Console.WriteLine("Estos son los productos que se registraron con sus respectivos precios!");
+Console.WriteLine("Estos son los productos que se registraron con sus respectivos precios!"); // Mostramos los productos que registro
 
 foreach (var producto in diccionarioProductos)
 {
-    Console.WriteLine($"Producto: {producto.Key}, tiene un precio de: {producto.Value}");
+    Console.WriteLine($"Producto: {producto.Key}, tiene un precio de: {producto.Value}"); // Lo hacemos con un foreach para iterar sobre el diccionario
 }
 
 Console.WriteLine(new string('-', 54));
 
-double sumaTotal = 0.0;
+double sumaTotal = 0.0; // La variable que nos ayudara con la suma de los
 
 foreach (var prod in diccionarioProductos)
 {

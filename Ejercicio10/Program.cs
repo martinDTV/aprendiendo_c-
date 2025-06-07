@@ -63,9 +63,36 @@ Console.WriteLine("Hola, ¿Cuantos productos desea agregar?");
 
 int respuestaProductos = int.Parse(Console.ReadLine());
 
-Dictionary<string, int> diccionarioProductos = Dictionary<string, int>();
+Dictionary<string, double> diccionarioProductos = new Dictionary<string, double>();
 
-for (int i = 0; i <= respuestaProductos; i++)
+for (int i = 0; i < respuestaProductos; i++)
 {
-    Console.WriteLine("");
+    Console.WriteLine($"Escriba el Nombre del producto {i + 1}: ");
+    string nombreProducto = Console.ReadLine();
+
+    Console.WriteLine("Escriba el precio para el producto: ");
+    double precioProducto = double.Parse(Console.ReadLine());
+
+    diccionarioProductos[nombreProducto] = precioProducto;
 }
+
+
+Console.WriteLine(new string('-', 54));
+
+Console.WriteLine("Estos son los productos que se registraron con sus respectivos precios!");
+
+foreach (var producto in diccionarioProductos)
+{
+    Console.WriteLine($"Producto: {producto.Key}, tiene un precio de: {producto.Value}");
+}
+
+Console.WriteLine(new string('-', 54));
+
+double sumaTotal = 0.0;
+
+foreach (var prod in diccionarioProductos)
+{
+    sumaTotal += prod.Value;
+}
+
+Console.WriteLine($"La suma total de los productos es: {sumaTotal}");

@@ -1,0 +1,15 @@
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/bin/Debug/net9.0/Ejercicio16
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/bin/Debug/net9.0/Ejercicio16.deps.json
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/bin/Debug/net9.0/Ejercicio16.runtimeconfig.json
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/bin/Debug/net9.0/Ejercicio16.dll
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/bin/Debug/net9.0/Ejercicio16.pdb
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/Ejercicio16.GeneratedMSBuildEditorConfig.editorconfig
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/Ejercicio16.AssemblyInfoInputs.cache
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/Ejercicio16.AssemblyInfo.cs
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/Ejercicio16.csproj.CoreCompileInputs.cache
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/Ejercicio16.sourcelink.json
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/Ejercicio16.dll
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/refint/Ejercicio16.dll
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/Ejercicio16.pdb
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/Ejercicio16.genruntimeconfig.cache
+/Users/martin/Desktop/estudio/aprendiendo_c#/Ejercicio16/obj/Debug/net9.0/ref/Ejercicio16.dll

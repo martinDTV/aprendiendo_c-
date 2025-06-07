@@ -17,3 +17,55 @@ foreach (string tarea in tareas)
 {
     Console.WriteLine($"📌 {tarea}");
 }
+
+
+// Dictionary<TKey, TValue> — Diccionario (clave-valor)
+
+
+Dictionary<string, int> edades = new Dictionary<string, int>()
+{
+    {"Martin", 20},
+    {"Perlile", 21},
+    {"Molly", 4}
+};
+
+
+foreach (KeyValuePair<string, int> par in edades)
+{
+    Console.WriteLine($"Nombre: {par.Key}, Edad: {par.Value}");
+}
+
+
+Console.WriteLine(new string('-', 54));
+
+// usando var en ves ed KeyValuePair
+
+foreach (var par in edades)
+{
+    Console.WriteLine($"Nombre: {par.Key}, Edad: {par.Value}");
+}
+
+
+/*  
+Crea un programa que:
+
+    Te permita registrar varios productos junto con su precio.
+
+    Use un Dictionary<string, double> para almacenar los datos.
+
+    Muestre la lista completa de productos y sus precios.
+
+    Calcule y muestre el precio total de todos los productos registrados.
+ */
+
+
+Console.WriteLine("Hola, ¿Cuantos productos desea agregar?");
+
+int respuestaProductos = int.Parse(Console.ReadLine());
+
+Dictionary<string, int> diccionarioProductos = Dictionary<string, int>();
+
+for (int i = 0; i <= respuestaProductos; i++)
+{
+    Console.WriteLine("");
+}

@@ -26,3 +26,16 @@ persona.Saludar();
 Coche coche = new Coche("Ferrari", "Rojo", 4, 60);
 
 coche.InformacionCoche();
+
+
+Producto producto = new Producto();
+
+producto.Nombre = "Laptop";
+producto.Precio = 2344;
+
+producto.MostarInfo();
+
+
+producto.Precio = -3453;
+
+producto.MostarInfo();

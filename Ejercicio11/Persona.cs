@@ -41,3 +41,50 @@ public class Coche
         Console.WriteLine($"Este coche es de la marca {Marca}, es de color {Color}, cuenta con {Puertas} puertas y puede ir a una velocidad de {Velocidad} Km/h");
     }
 }
+
+/* 
+
+Encapsulamiento con propiedades (get / set)
+
+*/
+
+/* 
+
+Es un principio de la programación orientada a objetos que consiste en ocultar los datos internos de una clase y controlar 
+el acceso a ellos mediante propiedades.
+
+*/
+
+public class Producto
+{
+    private string nombre;
+    private double precio;
+
+
+    public string Nombre
+    {
+        get { return nombre; }
+        set { nombre = value; }
+    }
+    public double Precio
+    {
+        get { return precio; }
+        set
+        {
+            if (value >= 0)
+            {
+                precio = value;
+            }
+            else
+            {
+                Console.WriteLine("El precio no puede ser negativo!");
+            }
+        }
+    }
+
+    public void MostarInfo()
+    {
+        Console.WriteLine($"Producto: {Nombre} - Precio: {Precio}");
+    }
+
+}

@@ -11,7 +11,7 @@ LINQ te permite consultar y transformar colecciones de datos (listas, arreglos, 
 
     Funciona con listas (List<T>), arrays, diccionarios, XML, bases de datos, etc.
 
-
+------------------------------------------------------------------
 | Método                | Descripción                             |
 | --------------------- | --------------------------------------- |
 | `Where()`             | Filtra elementos                        |

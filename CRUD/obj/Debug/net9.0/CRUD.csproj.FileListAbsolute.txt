@@ -1,0 +1,15 @@
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/CRUD.GeneratedMSBuildEditorConfig.editorconfig
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/CRUD.AssemblyInfoInputs.cache
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/CRUD.AssemblyInfo.cs
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/CRUD.csproj.CoreCompileInputs.cache
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/CRUD.sourcelink.json
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/bin/Debug/net9.0/CRUD
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/bin/Debug/net9.0/CRUD.deps.json
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/bin/Debug/net9.0/CRUD.runtimeconfig.json
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/bin/Debug/net9.0/CRUD.dll
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/bin/Debug/net9.0/CRUD.pdb
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/CRUD.dll
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/refint/CRUD.dll
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/CRUD.pdb
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/CRUD.genruntimeconfig.cache
+/Users/martin/Desktop/estudio/aprendiendo_c#/CRUD/obj/Debug/net9.0/ref/CRUD.dll
